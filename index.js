@@ -4,9 +4,6 @@ var Alexa = require('alexa-sdk');
 var APP_ID = 'amzn1.ask.skill.c8bfdaa2-ff53-4433-ba4a-4e12ccc1ac07';
 var SKILL_NAME = 'Mauritius Fody Facts';
 
-/**
- * Array containing Mauritius Fody Facts.
- */
 var FACTS = [
     "The bird is a weaver, the male and female cooperating to weave each nest, from material like grass, moss and small twigs.",
     "The Mauritius fody (Foudia rubra) is a rare species of bird in the weaver family.",
