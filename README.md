@@ -2,11 +2,20 @@
 
 Mauritius Fody Facts Amazon Alexa Skill
 
+## Sample usage
+
+* Alexa, tell me a fody fact
+* Alexa, give me a fody fact
+* Alexa, tell me a fody trivia
+* Alexa, give me a fody trivia
+
+## Details
+
 * Store URL: https://www.amazon.co.uk/tjrobinson-net-Mauritius-Fody-Facts/dp/B06XTZVF8H
 * Skill ID: `amzn1.ask.skill.c8bfdaa2-ff53-4433-ba4a-4e12ccc1ac07`
 * AWS Lambda ARN: `1arn:aws:lambda:us-east-1:737184954114:function:fodyFacts1`
 
-# Building/Publishing
+## Building/Publishing
 
 1. Build the AWS Lambda function
     1. Open `AWSLambda`
