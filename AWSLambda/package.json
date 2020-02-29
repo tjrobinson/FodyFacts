@@ -1,0 +1,29 @@
+{
+  "name": "fodyFacts",
+  "version": "1.0.0",
+  "description": "Fody Facts",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf fodyFacts.zip && npm-pack-zip",
+    "publish": "npm run zip && aws lambda update-function-code --function-name fodyFacts --zip-file fileb://fodyFacts.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjrobinson/FodyFacts.git"
+  },
+  "author": "Tom Robinson",
+  "bugs": {
+    "url": "https://github.com/tjrobinson/FodyFacts/issues"
+  },
+  "homepage": "https://github.com/tjrobinson/FodyFacts#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25"
+  },
+  "bundledDependencies": [
+    "alexa-sdk"
+  ],
+  "devDependencies": {
+    "npm-pack-zip": "^1.2.7",
+    "rimraf": "^3.0.2"
+  }
+}
